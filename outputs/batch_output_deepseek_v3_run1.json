@@ -1,0 +1,81 @@
+[
+  {
+    "case_id": "JD001",
+    "result": {
+      "job_title": "AI应用开发实习生",
+      "company": null,
+      "location": "广州天河",
+      "education": "本科及以上",
+      "major_requirement": null,
+      "required_skills": [
+        "使用Python编写脚本",
+        "了解大模型API调用"
+      ],
+      "preferred_skills": [
+        "RAG相关项目经验"
+      ],
+      "attendance": "每周至少到岗4天",
+      "duration": "连续实习不少于3个月"
+    }
+  },
+  {
+    "case_id": "JD002",
+    "result": {
+      "job_title": "AI产品测试实习生",
+      "company": "某科技有限公司",
+      "location": "广州天河",
+      "education": "本科及以上",
+      "major_requirement": "专业不限",
+      "required_skills": [
+        "使用Excel整理测试数据",
+        "基本的文档编写"
+      ],
+      "preferred_skills": [
+        "熟悉Python",
+        "大模型产品使用经验"
+      ],
+      "attendance": "每周至少到岗3天",
+      "duration": "连续实习不少于4个月"
+    }
+  },
+  {
+    "case_id": "JD003",
+    "result": {
+      "job_title": "AI产品助理实习生",
+      "company": "某能源科技公司",
+      "location": "广州天河或深圳南山",
+      "education": "本科及以上",
+      "major_requirement": "专业不限，能源或计算机相关专业优先",
+      "required_skills": [
+        "基本的需求分析",
+        "文档编写",
+        "使用Excel进行数据整理"
+      ],
+      "preferred_skills": [
+        "熟悉Python"
+      ],
+      "attendance": "每周至少到岗3天",
+      "duration": null
+    }
+  },
+  {
+    "case_id": "JD004",
+    "result": {
+      "job_title": "电力市场AI应用实习生",
+      "company": "北京清能互联科技有限公司",
+      "location": null,
+      "education": "本科及以上",
+      "major_requirement": "电力、能源、管理、计算机、人工智能、数据科学、信息管理、经济、公共政策等相关专业优先",
+      "required_skills": [
+        "了解大语言模型、Prompt、Agent、知识库/RAG、工作流编排等概念",
+        "较强的信息检索、资料整理、逻辑分析和文字表达能力"
+      ],
+      "preferred_skills": [
+        "使用过Dify、Coze/扣子、FastGPT、LangChain、RAGFlow、Flowise、AutoGen等工具",
+        "Python、SQL、爬虫、数据清洗、Excel自动化处理"
+      ],
+      "attendance": "每周出勤5天",
+      "duration": "至少3个月，6个月及以上优先"
+    }
+  }
+]

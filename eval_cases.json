@@ -1,0 +1,72 @@
+[
+  {
+    "id": "JD001",
+    "jd": "招聘岗位：AI应用开发实习生\n工作地点：广州天河\n岗位要求：\n1. 本科及以上学历；\n2. 能使用Python编写脚本，了解大模型API调用；\n3. 有RAG相关项目经验者优先；\n4. 每周至少到岗4天，连续实习不少于3个月。",
+    "expected": {
+      "job_title": "AI应用开发实习生",
+      "company": null,
+      "location": "广州天河",
+      "education": "本科及以上",
+      "major_requirement": null,
+      "required_skills": ["使用Python编写脚本", "了解大模型API调用"],
+      "preferred_skills": ["RAG相关项目经验"],
+      "attendance": "每周至少到岗4天",
+      "duration": "连续实习不少于3个月"
+    }
+  },
+  {
+    "id": "JD002",
+    "jd": "招聘公司：某科技有限公司\n招聘岗位：AI产品测试实习生\n工作地点：广州天河\n\n岗位要求：\n1. 本科及以上学历，专业不限；\n2. 能够使用Excel整理测试数据，具备基本的文档编写能力；\n3. 熟悉Python者优先，有大模型产品使用经验者加分；\n4. 每周至少到岗3天，连续实习不少于4个月。",
+    "expected": {
+      "job_title": "AI产品测试实习生",
+      "company": "某科技有限公司",
+      "location": "广州天河",
+      "education": "本科及以上",
+      "major_requirement": "专业不限",
+      "required_skills": ["使用Excel整理测试数据", "基本的文档编写"],
+      "preferred_skills": ["熟悉Python", "大模型产品使用经验"],
+      "attendance": "每周至少到岗3天",
+      "duration": "连续实习不少于4个月"
+    }
+  },
+  {
+    "id": "JD003",
+    "jd": "招聘公司：某能源科技公司\n招聘岗位：AI产品助理实习生\n工作地点：广州天河或深圳南山\n\n岗位要求：\n1. 本科及以上学历，专业不限，能源或计算机相关专业优先；\n2. 具备基本的需求分析和文档编写能力；\n3. 能够使用Excel进行数据整理；\n4. 熟悉Python者加分；\n5. 每周至少到岗3天。",
+    "expected": {
+      "job_title": "AI产品助理实习生",
+      "company": "某能源科技公司",
+      "location": "广州天河或深圳南山",
+      "education": "本科及以上",
+      "major_requirement": "专业不限，能源或计算机相关专业优先",
+      "required_skills": ["基本的需求分析", "基本的文档编写", "使用Excel进行数据整理"],
+      "preferred_skills": ["熟悉Python"],
+      "attendance": "每周至少到岗3天",
+      "duration": null
+    }
+  },
+  {
+    "id": "JD004",
+    "source": "用户提供的招聘平台截图",
+    "record_date": "2026-10-16",
+    "source_url": null,
+    "jd": "招聘岗位：电力市场AI应用实习生\n公司：北京清能互联科技有限公司\n\n岗位职责：\n1. 协助梳理业务规划工作中的AI Agent应用场景，设计Agent功能模块和工作流；\n2. 协助搭建政策规则跟踪Agent，实现政策采集、摘要生成、变化识别和影响分析初稿生成；\n3. 协助搭建电力市场规则拆解Agent，对各省电力市场规则进行字段提取、结构化整理和对比分析；\n4. 协助搭建行业信息资产库和知识问答Agent，实现政策、规则、案例、方案、培训资料等知识资产的检索和复用；\n5. 协助搭建市场动态分析Agent，围绕客户信息、招投标信息、竞对信息和重点省区市场情况进行资料整理；\n6. 协助搭建双周市场动态报告生成Agent，完成信息汇总、重点提炼和报告初稿生成；\n7. 协助维护“一省一策”数据库及电网侧产品线营销计划相关表格；\n8. 协助开展Prompt设计、知识库/RAG、工作流编排、工具调用及Agent效果测试优化。\n\n任职要求：\n1. 本科及以上在读，电力、能源、管理、计算机、人工智能、数据科学、信息管理、经济、公共政策等相关专业优先；\n2. 对业务规划、产业研究、电力市场或AI Agent应用感兴趣；\n3. 了解大语言模型、Prompt、Agent、知识库/RAG、工作流编排等概念；\n4. 使用过Dify、Coze/扣子、FastGPT、LangChain、RAGFlow、Flowise、AutoGen等工具者优先；\n5. 具备Python、SQL、爬虫、数据清洗、Excel自动化处理能力者优先；\n6. 具备较强的信息检索、资料整理、逻辑分析和文字表达能力；\n7. 学习能力强、责任心强，能够对Agent输出内容进行校验和优化。\n\n实习要求：\n实习周期：至少3个月，6个月及以上优先；\n出勤要求：每周出勤5天；\n到岗时间：尽快到岗；\n实习补贴：200元/天+20元餐补/天。",
+    "expected": {
+      "job_title": "电力市场AI应用实习生",
+      "company": "北京清能互联科技有限公司",
+      "location": null,
+      "education": "本科及以上",
+      "major_requirement": "电力、能源、管理、计算机、人工智能、数据科学、信息管理、经济、公共政策等相关专业优先",
+      "required_skills": [
+        "了解大语言模型、Prompt、Agent、知识库/RAG、工作流编排等概念",
+        "对Agent输出内容进行校验",
+        "对Agent输出内容进行优化"
+      ],
+      "preferred_skills": [
+        "使用过Dify、Coze/扣子、FastGPT、LangChain、RAGFlow、Flowise、AutoGen等工具",
+        "Python", "SQL", "爬虫", "数据清洗", "Excel自动化处理"
+      ],
+      "attendance": "每周出勤5天",
+      "duration": "至少3个月，6个月及以上优先"
+    }
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "run_name": "deepseek_v3_run1",
+  "model": "deepseek-v4.1-flash",
+  "use_schema": false,
+  "prompt_version": "v3",
+  "run_time": "2026-10-19 22:36:39",
+  "case_count": 4,
+  "success": 4,
+  "failed": 0,
+  "prompt_tokens": 4071,
+  "completion_tokens": 549,
+  "total_seconds": 8.7
+}

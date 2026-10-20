@@ -1,0 +1,13 @@
+{
+  "run_name": "qwen_v2_1_run1",
+  "model": "qwen3.7-plus",
+  "use_schema": true,
+  "prompt_version": "v2_1",
+  "run_time": "2026-10-19 15:25:56",
+  "case_count": 4,
+  "success": 4,
+  "failed": 0,
+  "prompt_tokens": 3013,
+  "completion_tokens": 600,
+  "total_seconds": 13.9
+}

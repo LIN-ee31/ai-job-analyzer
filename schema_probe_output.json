@@ -1,0 +1,20 @@
+{
+  "case_id": "JD003",
+  "model": "qwen3.7-plus",
+  "result": {
+    "job_title": "AI产品助理实习生",
+    "company": "某能源科技公司",
+    "location": "广州天河或深圳南山",
+    "education": "本科及以上",
+    "major_requirement": "专业不限，能源或计算机相关专业优先",
+    "required_skills": [
+      "具备基本的需求分析和文档编写能力",
+      "能够使用Excel进行数据整理"
+    ],
+    "preferred_skills": [
+      "熟悉Python"
+    ],
+    "attendance": "每周至少到岗3天",
+    "duration": null
+  }
+}
