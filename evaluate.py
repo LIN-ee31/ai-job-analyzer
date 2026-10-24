@@ -6,12 +6,13 @@ from validator import validate_result
 # ===== 评测设置 =====
 RUN_FILTER = "deepseek"
 DETAIL_RUNS = ["deepseek_v3_run3_check"]
+DATA_FILE = "testset/test_cases.json"  # 开发集是 "eval_cases.json"
 # ===================
 
 base_path = Path(__file__).parent
 output_dir = base_path / "outputs"
 
-with open(base_path / "eval_cases.json", "r", encoding="utf-8") as f:
+with open(base_path / DATA_FILE, "r", encoding="utf-8") as f:
     cases = json.load(f)
 case_dict = {case["id"]: case["expected"] for case in cases}
 
@@ -103,6 +104,8 @@ for path in sorted(output_dir.glob("run_summary_*.json")):
     with open(path, "r", encoding="utf-8") as f:
         summary = json.load(f)
     run_name = summary["run_name"]
+    if summary.get("data_file", "eval_cases.json") != DATA_FILE:
+        continue
     if RUN_FILTER not in run_name:
         continue
     score = evaluate_run(run_name, run_name in DETAIL_RUNS)

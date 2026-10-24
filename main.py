@@ -14,6 +14,7 @@ MODEL = "deepseek-v4.1-flash"
 USE_SCHEMA = False
 PROMPT_VERSION = "v3"
 RUN_NAME = "deepseek_v3_run3_check"
+DATA_FILE = "testset/test_cases.json"  # 开发集是 "eval_cases.json"
 # =====================================
 
 BASE_DIR = Path(__file__).parent
@@ -46,7 +47,7 @@ client = OpenAI(
 )
 
 # 2. 读取测试集和 Prompt
-with open(BASE_DIR / "eval_cases.json", "r", encoding="utf-8") as f:
+with open(BASE_DIR /DATA_FILE, "r", encoding="utf-8") as f:
     cases = json.load(f)
 
 system_prompt = prompt_path.read_text(encoding="utf-8")
@@ -153,6 +154,7 @@ summary = {
     "model": MODEL,
     "use_schema": USE_SCHEMA,
     "prompt_version": PROMPT_VERSION,
+    "data_file": DATA_FILE,
     "run_time": time.strftime("%Y-%m-%d %H:%M:%S"),
     "case_count": len(cases),
     "success": len(all_results),
