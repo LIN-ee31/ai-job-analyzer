@@ -27,10 +27,8 @@
   汇总为 y/90，与精确匹配的 x/90 一起报告。
 
 ## 其他字段（待定）
-job_title、company、location、education、major_requirement、attendance、duration、null 的处理。
+job_title、company、location、education、major_requirement、attendance、duration、null 的处理。（已由下文 v0.2 规定）
 
-## 疑问
-（测评中遇到规则没覆盖的情况记在这里）
 ## v0.2（2026-10-24）：其他 7 个字段
 适用：job_title、company、location、education、major_requirement、attendance、duration。
 确认记录：用户确认（2026-10-24）。低严重度的“程度改变”和“遗漏”在 y/90 中算错，严重度另行统计。理由：标注规范要求保留“不少于”等限定词，判定口径与标注保持一致。
@@ -51,3 +49,11 @@ job_title、company、location、education、major_requirement、attendance、du
 - 学历：“本科”与“本科及以上”默认不等价，记为程度改变；答案只来自平台信息卡的情况（T009）属于疑问清单中的歧义处，单独统计。
 - 截断标题：去掉“…” → 语义等价；补全了原文没有的字 → 编造。
 - annotation_questions.md 列出的歧义处，模型与答案不一致时单独统计，不直接算模型错。
+- - 答案有内容、模型多写了内容（2026-10-24 补充，测试集运行前确定；精确匹配 x/90 照常算错）：
+  - 多出的字不带新信息（如与城市重复的“base北京”、开头的“本人”）→ 语义等价。
+  - 多出的是原文支持、但属于其他字段的信息（如 duration 写成“3个月以上，每周4-5天”）→ 归错字段（低严重度），本字段算错；另一字段照常单独判定。
+  - 多出的是原文支持、按规范属于本字段的信息 → 记为“疑似标注错误”，仍按冻结答案计分（算错），单独列出，测试期间不改答案。
+  - 原文不支持 → 编造。
+
+## 疑问
+（测评中遇到规则没覆盖的情况记在这里）
