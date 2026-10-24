@@ -13,7 +13,7 @@ from validator import validate_result
 MODEL = "deepseek-v4.1-flash"
 USE_SCHEMA = False
 PROMPT_VERSION = "v3"
-RUN_NAME = "deepseek_v3_run2"
+RUN_NAME = "deepseek_v3_run3_check"
 # =====================================
 
 BASE_DIR = Path(__file__).parent

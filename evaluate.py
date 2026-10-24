@@ -5,7 +5,7 @@ from validator import validate_result
 
 # ===== 评测设置 =====
 RUN_FILTER = "deepseek"
-DETAIL_RUNS = ["deepseek_v3_run1"]
+DETAIL_RUNS = ["deepseek_v3_run3_check"]
 # ===================
 
 base_path = Path(__file__).parent
