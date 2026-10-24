@@ -13,7 +13,7 @@ from validator import validate_result
 MODEL = "deepseek-v4.1-flash"
 USE_SCHEMA = False
 PROMPT_VERSION = "v3"
-RUN_NAME = "deepseek_v3_run3_check"
+RUN_NAME = "deepseek_v3_test_run2"
 DATA_FILE = "testset/test_cases.json"  # 开发集是 "eval_cases.json"
 # =====================================
 

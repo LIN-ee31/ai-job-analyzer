@@ -1,0 +1,14 @@
+{
+  "run_name": "deepseek_v3_test_run1",
+  "model": "deepseek-v4.1-flash",
+  "use_schema": false,
+  "prompt_version": "v3",
+  "data_file": "testset/test_cases.json",
+  "run_time": "2026-10-24 14:51:41",
+  "case_count": 10,
+  "success": 10,
+  "failed": 0,
+  "prompt_tokens": 13131,
+  "completion_tokens": 1593,
+  "total_seconds": 42.9
+}

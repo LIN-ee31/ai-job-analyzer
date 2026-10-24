@@ -5,7 +5,7 @@ from validator import validate_result
 
 # ===== 评测设置 =====
 RUN_FILTER = "deepseek"
-DETAIL_RUNS = ["deepseek_v3_run3_check"]
+DETAIL_RUNS = ["deepseek_v3_test_run1", "deepseek_v3_test_run2"]
 DATA_FILE = "testset/test_cases.json"  # 开发集是 "eval_cases.json"
 # ===================
 

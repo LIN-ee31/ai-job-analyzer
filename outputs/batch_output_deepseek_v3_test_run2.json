@@ -1,0 +1,238 @@
+[
+  {
+    "case_id": "T001",
+    "result": {
+      "job_title": "Agent Harness开发（全职实习）",
+      "company": "省心购科技（广州）有限责任公司",
+      "location": "北广深，国外，最好线下，能力优秀接受远程",
+      "education": null,
+      "major_requirement": null,
+      "required_skills": [
+        "会用AI编程工具",
+        "熟悉开源框架（至少一个）",
+        "独立/深度思考能力"
+      ],
+      "preferred_skills": [],
+      "attendance": "每周五天，周一到周五，无早晚上班时间强制规定，按时完成工作即可",
+      "duration": null
+    }
+  },
+  {
+    "case_id": "T002",
+    "result": {
+      "job_title": "Agent产品实习生",
+      "company": null,
+      "location": "广州",
+      "education": null,
+      "major_requirement": null,
+      "required_skills": [
+        "熟悉产品经理基本工作流程",
+        "熟悉产品经理常用工具"
+      ],
+      "preferred_skills": [
+        "流量天赋",
+        "持续在多个领域，不同方向做出内容爆款"
+      ],
+      "attendance": "每周四天",
+      "duration": null
+    }
+  },
+  {
+    "case_id": "T003",
+    "result": {
+      "job_title": "AI产品实习生",
+      "company": "广州星维互动网络技术有限公司",
+      "location": null,
+      "education": "本科及以上",
+      "major_requirement": "计算机科学、人工智能、软件工程等相关专业优先",
+      "required_skills": [
+        "主动尝试并深度使用多种AI生成工具",
+        "清晰的逻辑思维",
+        "问题拆解",
+        "优秀的沟通表达",
+        "跨团队协作",
+        "自驱力强",
+        "掌握Axure、Figma、Xmind等产品设计工具",
+        "具备基础数据分析能力（Excel、SQL）",
+        "能独立提取并分析用户行为数据"
+      ],
+      "preferred_skills": [
+        "产品实习经验",
+        "AI相关项目经历（如AI应用demo、模型评测、Agent搭建等）"
+      ],
+      "attendance": null,
+      "duration": null
+    }
+  },
+  {
+    "case_id": "T004",
+    "result": {
+      "job_title": "游戏 AI 研…叙事系统）",
+      "company": "数据湍流（广州）信息科技有限公…",
+      "location": "广州·天河区·珠江新城",
+      "education": "本科在读高年级/硕士/博士",
+      "major_requirement": "方向不限",
+      "required_skills": [
+        "负责调度服务与游戏引擎的接口设计与联调",
+        "数据、模型训练和引擎开发",
+        "Python 熟练",
+        "做过模型蒸馏",
+        "能独立把一个想法写成能跑的原型",
+        "能快速读懂论文并复述其贡献与局限"
+      ],
+      "preferred_skills": [
+        "了解 LLM 应用开发",
+        "写过论文、technical report 或高质量技术博客"
+      ],
+      "attendance": "5天/周",
+      "duration": "3个月"
+    }
+  },
+  {
+    "case_id": "T005",
+    "result": {
+      "job_title": "FDE实习生",
+      "company": "江苏慧工智能科技有限公司",
+      "location": "广州·黄埔区·中心城",
+      "education": "本科",
+      "major_requirement": "专业不限——计算机、软件、自动化、机械、工业工程、数学、统计、材料……都可以",
+      "required_skills": [
+        "会一点编程（Python / Java / C# / JavaScript 任一都行）",
+        "写过一点代码、做过一点项目",
+        "会写 SQL",
+        "能处理 Excel / CSV / JSON 数据",
+        "用过 AI、愿意把 AI 用起来"
+      ],
+      "preferred_skills": [
+        "用过 AI 工具（ChatGPT / Claude / 各类大模型）",
+        "自己动手做过 AI 应用 / 智能体",
+        "参加过 AI 相关课程、训练营、竞赛",
+        "了解或接触过制造业、ERP / MES / WMS 等系统",
+        "会开车"
+      ],
+      "attendance": "3天/周",
+      "duration": "3个月"
+    }
+  },
+  {
+    "case_id": "T006",
+    "result": {
+      "job_title": "AI软件开发实习生",
+      "company": "广东瑞池广告有限公司",
+      "location": null,
+      "education": "本科及以上",
+      "major_requirement": "计算机、软件工程、人工智能、电子信息等相关专业",
+      "required_skills": [
+        "掌握至少一门主流开发语言（Python/Java/Go/JavaScript等）",
+        "基础的代码编写、调试",
+        "了解软件开发基本流程",
+        "极度拥抱AI",
+        "热爱AI编码",
+        "愿意全程使用顶级AI模型、Codex等工具完成开发工作",
+        "具备快速学习新技术、新工具",
+        "稳定实习3个月及以上"
+      ],
+      "preferred_skills": [
+        "全职实习"
+      ],
+      "attendance": null,
+      "duration": "3个月及以上，全职实习优先"
+    }
+  },
+  {
+    "case_id": "T007",
+    "result": {
+      "job_title": "AI产品实习",
+      "company": null,
+      "location": null,
+      "education": "本科及以上",
+      "major_requirement": "计算机相关专业优先",
+      "required_skills": [
+        "熟练使用各类AI工具",
+        "擅长借助工具拆解问题、梳理方案",
+        "具备基础人机协同思维",
+        "具备基础产品思维",
+        "可协助完成需求拆解与方案设计"
+      ],
+      "preferred_skills": [
+        "了解大模型基础原理",
+        "有产品实习经验",
+        "有AI项目落地经验",
+        "可借助AI独立搭建产品原型"
+      ],
+      "attendance": null,
+      "duration": null
+    }
+  },
+  {
+    "case_id": "T008",
+    "result": {
+      "job_title": "大模型评估与环境算法实习生-Commercial AI",
+      "company": "字节跳动",
+      "location": "北京",
+      "education": "本科及以上",
+      "major_requirement": "计算机、数学、统计等相关专业优先",
+      "required_skills": [
+        "有机器学习/NLP/推荐/广告/RL等任一方向基础，做过课程项目或科研/实习项目",
+        "熟练使用Python",
+        "熟悉至少一种常用深度学习框架（PyTorch/TensorFlow等）",
+        "具备基本实验设计与数据分析",
+        "习惯用代码说话"
+      ],
+      "preferred_skills": [
+        "对大语言模型/Agent有兴趣，有相关项目/论文/开源作品"
+      ],
+      "attendance": "每周出勤不少于3天",
+      "duration": "实习周期不少于3个月，可长期实习优先"
+    }
+  },
+  {
+    "case_id": "T009",
+    "result": {
+      "job_title": "AI数据标注&大模型评测实习生（北京）",
+      "company": "网易有道",
+      "location": "北京",
+      "education": "本科",
+      "major_requirement": null,
+      "required_skills": [
+        "全日制在校生",
+        "线下公司坐班实习一个月以上",
+        "可实习3个月以上，每周4-5天",
+        "能够处理并行项目或任务"
+      ],
+      "preferred_skills": [
+        "IT、互联网、智能硬件行业，项目、产品、研发、测试实习经验",
+        "有过数据采集、标注经验，期望在项目管理领域长期发展",
+        "2027年及以后毕业",
+        "现场实习"
+      ],
+      "attendance": "每周4-5天",
+      "duration": "3个月以上"
+    }
+  },
+  {
+    "case_id": "T010",
+    "result": {
+      "job_title": "LLM大模型评测产品经理实习生-AI创新业务",
+      "company": "字节跳动",
+      "location": "北京",
+      "education": "本科及以上",
+      "major_requirement": null,
+      "required_skills": [
+        "模型策略/评测/数据产品相关经验",
+        "具备结构化分析",
+        "对数据和指标体系敏感",
+        "能基于实验、日志、线上表现快速定位模型问题",
+        "熟练制定合理的验证方案与评测集",
+        "具备自驱力和结果导向",
+        "能跨算法/数据/研发对齐指标、节奏和交付",
+        "推动闭环落地"
+      ],
+      "preferred_skills": [
+        "熟悉LLM/多模态/Agent产品评估"
+      ],
+      "attendance": null,
+      "duration": null
+    }
+  }
+]
